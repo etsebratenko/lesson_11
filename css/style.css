@@ -111,8 +111,6 @@
 }
 
 .container-sale {
-  max-width: 1110px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
 }
@@ -161,9 +159,9 @@
   background-color: rgba(240, 180, 197, 0.1137254902);
 }
 
-.sale-image__img {
-  max-width: 1920px;
-  max-height: 604px;
+.sale-image {
+  width: 864px;
+  height: 604px;
 }
 
 .container-main {
@@ -232,24 +230,24 @@
   color: #000000;
 }
 .main-card__button {
-  width: 135px;
+  width: 130px;
   text-decoration: none;
+  background: #f13c6e;
+  border-radius: 30px;
+  color: #fff;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
+  padding: 9px 21px;
+  border: 2px solid #fff;
   text-align: center;
-  color: #fff;
-  background: #f13c6e;
-  border-radius: 30px;
-  padding: 9px 40px;
 }
 .main-card__button:hover {
   cursor: pointer;
-  background-color: rgba(235, 156, 179, 0.2274509804);
-  border: 2px solid #f13c6e;
-  color: #f13c6e;
+  background: rgba(250, 150, 178, 0.5607843137);
+  color: #fff;
 }
 
 .pink-block {

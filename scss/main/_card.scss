@@ -62,24 +62,29 @@
   }
 
   &__button {
-    width: 135px;
+    width: 130px;
     text-decoration: none;
+    background: #f13c6e;
+    border-radius: 30px;
+    color: #fff;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+    padding: 9px 21px;
+    border: 2px solid #fff;
     text-align: center;
-    color: #fff;
-    background: #f13c6e;
-    border-radius: 30px;
-    padding: 9px 40px;
 
-      &:hover {
-        cursor: pointer;
-        background-color: #eb9cb33a;
-        border: 2px solid #f13c6e;
-        color: #f13c6e;
-      }
+
+
+    &:hover {
+      cursor: pointer;
+      background: #fa96b28f;
+      color: #fff;
+
+
+
+    }
   }
 }
