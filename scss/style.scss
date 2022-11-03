@@ -14,17 +14,4 @@
 @use 'footer/navbar-networks';
 @use 'footer/copyright';
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 1150px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+*,::after,::before{box-sizing:border-box;margin:0;padding:0}.container{max-width:1150px;margin:0 auto;padding-left:20px;padding-right:20px}
